@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * Description: main- The entry point function 
- * initialization: the declaration part
+ * Description:main - The entry point function
+ *initialization:the declaration part
  * Conditional statements : the if_else part
  * Return: always return 0 (success)
  */
