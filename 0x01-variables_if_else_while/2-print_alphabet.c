@@ -3,19 +3,22 @@
 #include <time.h>
 #include <ctype.h>
 /**
-*Description: main entry point
-*
-*Return: return 0 (success)
-*/
+ * Description:main - The entry point function
+ *initialization:the declaration part
+ * Conditional statements : the if_else part
+ * Return: always return 0 (success)
+ */
 
 int main(void)
 {
 	int x;
 
-	for(x = 'A'; x <= 'Z'; x++)
-	{	putchar(tolower(x));
-		putchar('\n');
+	for (x = 'A'; x <= 'Z'; x++)
+	{	
+		putchar(tolower(x));
 	}
+	putchar('\n');
+
 	return (0);
 }
 
