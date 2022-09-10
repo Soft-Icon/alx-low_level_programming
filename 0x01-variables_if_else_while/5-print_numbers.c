@@ -2,14 +2,16 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * Description:main entry point
+ * Description:main- The entry point
+ * Initialization: The variables aare initialised here
  *
- * Return: return zero (success)
+ * Return: Always return zero (success)
  */
 
 int main(void)
 {
 	int i;
+
 	for (i = 0; i <= 9; i++)
 		printf("%d", i);
 	putchar('\n');
