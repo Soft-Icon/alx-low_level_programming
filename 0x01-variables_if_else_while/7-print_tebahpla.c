@@ -5,7 +5,7 @@
  * Description:main- The main entry point
  * initialization point
  * rest of the code goes in here
- *Return: Always return 0 (success) 
+ *Return: Always return 0 (success)
  */
 
 int main(void)
