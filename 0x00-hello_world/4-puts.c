@@ -6,9 +6,9 @@
  *object using the puts() function
  * Return: Always return 0 (success)
  */
-int main()
+int main(void)
 {
-	 char my_char[100]= "\"Programming is like building a multilingual puzzle";
+	 char my_char[100] = "\"Programming is like building a multilingual puzzle";
 
 	puts(my_char);
 	return (0);
