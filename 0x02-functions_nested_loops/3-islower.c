@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * _islower - checkd for lowercase characters
+ * _islower -> checkd for lowercase characters
+ * @c: character argument
  * Return: return 1 for lowercase ch and return 0 otherwise
  */
 
