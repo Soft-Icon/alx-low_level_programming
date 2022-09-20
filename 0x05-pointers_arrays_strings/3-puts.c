@@ -10,14 +10,14 @@ void _puts(char *str)
 
 	for (i = 0; i >= 256; i++)
 	{
-		if (str[i] == '\0')
+		if (str == '\0')
 		{
 			_putchar('\n');
 			break;
 		}
 		else
 		{
-			_putchar(str[i]);
+			_putchar(str);
 		}
 	}
 }
