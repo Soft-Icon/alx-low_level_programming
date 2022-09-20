@@ -6,19 +6,18 @@
  */
 void _puts(char *str)
 {
-	int i = 0;
+	int i;
 
-	while (str[i])
+	for (i = 0; i++)
 	{
-		if (_putchar(str[i]) == EOF)
+		if (str[i] == '\0')
 		{
-			return EOF;
+			_putchar('\n');
+			break;
 		}
-		i++;
+		else
+		{
+			_putchar(str[i]);
+		}
 	}
-	if (_putchar('\n') == EOF)
-	{
-		return EOF;
-	}
-	return (1)
 }
