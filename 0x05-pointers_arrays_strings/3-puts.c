@@ -6,5 +6,19 @@
  */
 void _puts(char *str)
 {
-	puts(const char *);
+	int i = 0;
+
+	while (str[i])
+	{
+		if (_putchar(str[i]) == EOF)
+		{
+			return EOF;
+		}
+		i++;
+	}
+	if (_putchar('\n') == EOF)
+	{
+		return EOF;
+	}
+	return (1)
 }
