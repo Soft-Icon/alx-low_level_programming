@@ -1,16 +1,6 @@
 #include "main.h"
 /**
-* _strncat -> function to append some charx
-* @dest: first param
-* @src: second param
-* @n: 3rd param
-* Return: string
-*/
-char *_strncat(char *dest, char *src, int n)
-{
-	strncat(dest, src, n);
-	/**
-* _strncat -> function to append some charx
+* _strncat -> function to append some char
 * @dest: first param
 * @src: second param
 * @n: 3rd param
@@ -20,5 +10,4 @@ char *_strncat(char *dest, char *src, int n)
 {
 	strncat(dest, src, n);
 	return (dest);
-}return (dest);
 }
