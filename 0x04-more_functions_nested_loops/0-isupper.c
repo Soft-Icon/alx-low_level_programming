@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code.
+ * main --> checks for upper case character.
  * @: _isupper
  * return: Always 0.
  */
