@@ -1,10 +1,10 @@
 #include "main.h"
-#include <stdlib.h>
-#include <stdio.h>
 /**
- * _isdigit -> checks for digits
- * @c: character argument
- * Return: 1 if digit and 0 otherwise
+ * _isdigit -> function to check for digit.
+ * @c: character argument.
+ * Return: return 1 if digit otherwise 0.
  */
 int _isdigit(int c)
-	return( c >= 0 && c <= 9);
+{
+	return(c >= '0' && c <= '9');
+}
